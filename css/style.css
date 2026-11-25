@@ -44,9 +44,23 @@ header {
 
 .logo img { height: 192px; width: auto; }
 
-nav ul { list-style: none; display: flex; gap: 1.3rem; }
+nav ul { list-style: none; display: flex; gap: 1.3rem; align-items: center; }
 nav a { color: var(--text); font-weight: 500; }
 nav a:hover { color: var(--primary); text-decoration: none; }
+nav a.btn-aluno {
+  background: var(--primary);
+  color: #fff;
+  padding: 0.45rem 1.1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+nav a.btn-aluno:hover {
+  background: var(--primary-dark);
+  color: #fff;
+  text-decoration: none;
+}
 
 main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 1.2rem 3rem; }
 
