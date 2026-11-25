@@ -48,7 +48,7 @@ nav ul { list-style: none; display: flex; gap: 1.3rem; align-items: center; }
 nav a { color: var(--text); font-weight: 500; }
 nav a:hover { color: var(--primary); text-decoration: none; }
 nav a.btn-aluno {
-  background: var(--primary);
+  background: var(--accent);
   color: #fff;
   padding: 0.45rem 1.1rem;
   border-radius: 8px;
